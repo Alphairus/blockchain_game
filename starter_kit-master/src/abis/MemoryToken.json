@@ -1,0 +1,312 @@
+{
+  "contractName": "MemoryToken",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60806040526040805190810160405280600c81526020017f4d656d6f727920546f6b656e00000000000000000000000000000000000000008152506000908051906020019061004f929190610062565b5034801561005c57600080fd5b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6101a0806101166000396000f3fe608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561016c5780601f106101415761010080835404028352916020019161016c565b820191906000526020600020905b81548152906001019060200180831161014f57829003601f168201915b50505050508156fea165627a7a723058203edf35db8a9ef881f39f42743c744fd7e876d058d54a0834d6b94dbe5e5e54c70029",
+  "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde0314610046575b600080fd5b34801561005257600080fd5b5061005b6100d6565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561009b578082015181840152602081019050610080565b50505050905090810190601f1680156100c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561016c5780601f106101415761010080835404028352916020019161016c565b820191906000526020600020905b81548152906001019060200180831161014f57829003601f168201915b50505050508156fea165627a7a723058203edf35db8a9ef881f39f42743c744fd7e876d058d54a0834d6b94dbe5e5e54c70029",
+  "sourceMap": "57:65:1:-;;;83:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;57:65;8:9:-1;5:2;;;30:1;27;20:12;5:2;57:65:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "57:65:1:-;;;;;;;;;;;;;;;;;;;;;;;;83:35;;8:9:-1;5:2;;;30:1;27;20:12;5:2;83:35:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;83:35:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"./ERC721Full.sol\";\r\n\r\ncontract MemoryToken {\r\n  string public name = \"Memory Token\";\r\n}\r\n",
+  "sourcePath": "C:/Users/Conner/projects/BlockChainGame/blockchain_game/src/contracts/MemoryToken.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Conner/projects/BlockChainGame/blockchain_game/src/contracts/MemoryToken.sol",
+    "exportedSymbols": {
+      "MemoryToken": [
+        1461
+      ]
+    },
+    "id": 1462,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1456,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/C/Users/Conner/projects/BlockChainGame/blockchain_game/src/contracts/ERC721Full.sol",
+        "file": "./ERC721Full.sol",
+        "id": 1457,
+        "nodeType": "ImportDirective",
+        "scope": 1462,
+        "sourceUnit": 1455,
+        "src": "27:26:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1461,
+        "linearizedBaseContracts": [
+          1461
+        ],
+        "name": "MemoryToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1460,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 1461,
+            "src": "83:35:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 1458,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "83:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4d656d6f727920546f6b656e",
+              "id": 1459,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "104:14:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_820d35e3ee6e38b7fca5ae4ff0805e7ba0cc1cdd6864964b6de0cfc516bee43d",
+                "typeString": "literal_string \"Memory Token\""
+              },
+              "value": "Memory Token"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 1462,
+        "src": "57:65:1"
+      }
+    ],
+    "src": "0:124:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Conner/projects/BlockChainGame/blockchain_game/src/contracts/MemoryToken.sol",
+    "exportedSymbols": {
+      "MemoryToken": [
+        1461
+      ]
+    },
+    "id": 1462,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1456,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "absolutePath": "/C/Users/Conner/projects/BlockChainGame/blockchain_game/src/contracts/ERC721Full.sol",
+        "file": "./ERC721Full.sol",
+        "id": 1457,
+        "nodeType": "ImportDirective",
+        "scope": 1462,
+        "sourceUnit": 1455,
+        "src": "27:26:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1461,
+        "linearizedBaseContracts": [
+          1461
+        ],
+        "name": "MemoryToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1460,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 1461,
+            "src": "83:35:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 1458,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "83:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "4d656d6f727920546f6b656e",
+              "id": 1459,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "string",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "104:14:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_stringliteral_820d35e3ee6e38b7fca5ae4ff0805e7ba0cc1cdd6864964b6de0cfc516bee43d",
+                "typeString": "literal_string \"Memory Token\""
+              },
+              "value": "Memory Token"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 1462,
+        "src": "57:65:1"
+      }
+    ],
+    "src": "0:124:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "approved",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "operator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "approved",
+              "type": "bool"
+            }
+          ],
+          "name": "ApprovalForAll",
+          "type": "event"
+        },
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x4C7557609569F97509ba0C87adFc97C9d8d1157d",
+      "transactionHash": "0xa7a3c583f19c4b9468c1cef7221a091bfc88a93becc054c67736ee113b70c81a"
+    }
+  },
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2021-04-13T19:42:33.466Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
